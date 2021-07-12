@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://superwinds.astro.lsa.umich.edu/</title>
+  <link>https://superwinds.astro.lsa.umich.edu/</link>
+
+<item>
+     <link>https://superwinds.astro.lsa.umich.edu/</link>
+     <title>Superwinds and Superbubbles - Hydrodynamic Simulations and Photoionization Models</title>
+     <description>Superwinds and Superbubbles - Hydrodynamic Simulations and Photoionization Models<</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://superwinds.astro.lsa.umich.edu/hydrodynamics/</link>
+     <title>Superwinds and Superbubbles - Hydrodynamic Simulations</title>
+     <description>Superwinds and Superbubbles - Hydrodynamic Simulations</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://superwinds.astro.lsa.umich.edu/photoionization/</link>
+     <title>Superwinds and Superbubbles - Photoionization Models</title>
+     <description>Superwinds and Superbubbles - Photoionization Models</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://superwinds.astro.lsa.umich.edu/download/</link>
+     <title>Superwinds and Superbubbles - Download Machine-Readable Tables</title>
+     <description>Superwinds and Superbubbles - Download Machine-Readable Tables</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://superwinds.astro.lsa.umich.edu/contact/</link>
+     <title>Superwinds and Superbubbles - Contact</title>
+     <description>Superwinds and Superbubbles - Download Machine-Readable Tables</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

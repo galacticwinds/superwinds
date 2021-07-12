@@ -1,2 +1,2 @@
 # superwinds
-Superwinds &amp; Superbubbles
+Superwinds and Superbubbles (https://galacticwinds.github.io/superwinds/)
