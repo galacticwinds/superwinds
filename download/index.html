@@ -79,13 +79,16 @@
 The following machine-readable files for the emission-line data are available <a target="_blank" href="VizieR.tar.gz">here (VizieR.tar.gz)</a> and in the CDS VizieR database: 
 <ul>
 <li><b><a target="_blank" href="VizieR.tar.gz">table_PI_radi.dat</a></b>: Fully radiation-bounded photoionization models.</li>
-<li><b><a target="_blank" href="VizieR.tar.gz">table_CPI_radi.dat</a></b>: Fully radiation-bounded photoionization and hydrodynamic collisional ionization models.</li>
+<li><b><a target="_blank" href="VizieR.tar.gz">table_CPI_radi.dat</a></b>: Fully radiation-bounded collisional ionization and photoionization models.</li>
+<li><b><a target="_blank" href="VizieR.tar.gz">table_NPI_radi.dat</a></b>: Fully radiation-bounded non-equilibrium photoionization models.</li>
 <li><b><a target="_blank" href="VizieR.tar.gz">table_PI_pden.dat</a></b>: Partially density-bounded photoionization models.</li>
-<li><b><a target="_blank" href="VizieR.tar.gz">table_CPI_pden.dat</a></b>: Partially density-bounded photoionization and hydrodynamic collisional ionization models.</li>
+<li><b><a target="_blank" href="VizieR.tar.gz">table_CPI_pden.dat</a></b>: Partially density-bounded collisional ionization and photoionization models.</li>
+<li><b><a target="_blank" href="VizieR.tar.gz">table_NPI_pden.dat</a></b>: Partially density-bounded non-equilibrium photoionization models.</li>
 <li><b><a target="_blank" href="VizieR.tar.gz">table_PI_dens.dat</a></b>: Fully density-bounded photoionization models.</li>
-<li><b><a target="_blank" href="VizieR.tar.gz">table_CPI_dens.dat</a></b>: Fully density-bounded photoionization and hydrodynamic collisional ionization models.</li>
+<li><b><a target="_blank" href="VizieR.tar.gz">table_CPI_dens.dat</a></b>: Fully density-bounded collisional ionization and photoionization models.</li>
+<li><b><a target="_blank" href="VizieR.tar.gz">table_NPI_dens.dat</a></b>: Fully density-bounded non-equilibrium photoionization models.</li>
 </ul>
-Each file is named as <b>table_case_bound.dat</b> such as <b>table_CPI_radi.dat</b>, where case is for the ionization case (<b>PI</b>: purely photoionization and <b>CPI</b>: photoionization and hydrodynamic collisional ionization), and bound for the optical depth model (<b>radi</b>: fully radiation-bounded, <b>pden</b>: partially density-bounded, and <b>dens</b>: fully density-bounded). 
+Each file is named as <b>table_case_bound.dat</b> such as <b>table_CPI_radi.dat</b>, where case is for the ionization case (<b>PI</b>: purely photoionization, <b>CPI</b>: collisional ionization and photoionization, and <b>NPI</b>: non-equilibrium photoionization), and bound for the optical depth model (<b>radi</b>: fully radiation-bounded, <b>pden</b>: partially density-bounded, and <b>dens</b>: fully density-bounded). 
 
 <br>
 <br>
@@ -150,16 +153,27 @@ Each file contains the following information:
 <img src="images/table_image.png" alt="Luminosity Table">
 </center>
 <h2>Citation</h2>
-<p>If you use our photoionization model grids in a scholarly publication, please cite this paper:</p>
+<p>If you use our photoionization model grids in a scholarly publication, please cite these papers:</p>
 <pre class="code bibtex literal-block">
 <span class="name class">&#64;article</span><span class="punctuation">{</span><span class="name label">Danehkar2021</span><span class="punctuation">,</span>
   <span class="name attribute">author</span> <span class="punctuation">=</span> <span class="literal string">{{Danehkar}, A. and {Oey}, M. S. and {Gray}, W. J.}</span><span class="punctuation">,</span>
   <span class="name attribute">title</span> <span class="punctuation">=</span> <span class="literal string">{Catastrophic Cooling in Superwinds. II. Exploring the Parameter Space}</span><span class="punctuation">,</span>
-  <span class="name attribute">journal</span> <span class="punctuation">=</span> <span class="literal string">{submitted}</span><span class="punctuation">,</span>
+  <span class="name attribute">journal</span> <span class="punctuation">=</span> <span class="literal string">{ApJ}</span><span class="punctuation">,</span>
+  <span class="name attribute">volume</span> <span class="punctuation">=</span> <span class="literal string">{921}</span><span class="punctuation">,</span>
+  <span class="name attribute">number</span> <span class="punctuation">=</span> <span class="literal string">{1}</span><span class="punctuation">,</span>
+  <span class="name attribute">pages</span> <span class="punctuation">=</span> <span class="literal string">{91}</span><span class="punctuation">,</span>
+  <span class="name attribute">year</span> <span class="punctuation">=</span> <span class="literal string">{2021}</span><span class="punctuation">,</span>
+  <span class="name attribute">doi</span> <span class="punctuation">=</span> <span class="literal string">{10.3847/1538-4357/ac1a76}</span>
+<span class="punctuation">}</span>
+<pre class="code bibtex literal-block">
+<span class="name class">&#64;article</span><span class="punctuation">{</span><span class="name label">Danehkar2022</span><span class="punctuation">,</span>
+  <span class="name attribute">author</span> <span class="punctuation">=</span> <span class="literal string">{{Danehkar}, A. and {Oey}, M. S. and {Gray}, W. J.}</span><span class="punctuation">,</span>
+  <span class="name attribute">title</span> <span class="punctuation">=</span> <span class="literal string">{Catastrophic Cooling in Superwinds. III. Non-equilibrium Photoionization}</span><span class="punctuation">,</span>
+  <span class="name attribute">journal</span> <span class="punctuation">=</span> <span class="literal string">{ApJ, submitted}</span><span class="punctuation">,</span>
   <span class="name attribute">volume</span> <span class="punctuation">=</span> <span class="literal string">{}</span><span class="punctuation">,</span>
   <span class="name attribute">number</span> <span class="punctuation">=</span> <span class="literal string">{}</span><span class="punctuation">,</span>
   <span class="name attribute">pages</span> <span class="punctuation">=</span> <span class="literal string">{}</span><span class="punctuation">,</span>
-  <span class="name attribute">year</span> <span class="punctuation">=</span> <span class="literal string">{2021}</span><span class="punctuation">,</span>
+  <span class="name attribute">year</span> <span class="punctuation">=</span> <span class="literal string">{2022}</span><span class="punctuation">,</span>
   <span class="name attribute">doi</span> <span class="punctuation">=</span> <span class="literal string">{}</span>
 <span class="punctuation">}</span>
 </header> 
